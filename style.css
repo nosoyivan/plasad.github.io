@@ -1,7 +1,13 @@
-        @import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;600;800&display=swap');
-        .navbar-text { font-family: 'Sono', sans-serif; font-weight: 400;}
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@400;500;600;800&display=swap');
+.navbar-text { font-family: 'Sono', sans-serif; font-weight: 400; font-style: italic; color: #fff;}
+a.navlinks:link {
+  color: white;
+}
+a.navlinks:hover {
+  color: pink;
+}
 
+.lnav { margin: auto; width: 50%;}
+.centernav { margin: auto;}
 
-
-        .lnav { margin: auto; width: 50%;}
-        .centernav { margin: auto;}
+body { background-color: #16181B;}
